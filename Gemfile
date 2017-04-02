@@ -60,3 +60,12 @@ gem 'simple_form'
 
 # gem for user authentification
 gem 'devise'
+
+# gem for carrierwave for image upload
+gem 'carrierwave', '~> 1.0'
+
+# gem for yml file for credentials for image upload
+gem 'figaro'
+
+# gem for carrierwave to communicate with Amazon S3
+gem "fog"
