@@ -75,3 +75,6 @@ gem 'mini_magick'
 
 # gem for video uploading
 gem 'carrierwave-aws'
+
+# gem for credit card payment service Stripe
+gem 'stripe'
