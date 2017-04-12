@@ -78,3 +78,6 @@ gem 'carrierwave-aws'
 
 # gem for credit card payment service Stripe
 gem 'stripe'
+
+# gem for changing order of positions in model
+gem 'ranked-model'
