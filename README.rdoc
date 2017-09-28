@@ -1,0 +1,41 @@
+= Flixter
+
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
+
+View the {Live Site}[https://flixter-edwin-f.herokuapp.com/].
+
+
+Features:
+
+-Built with Ruby on Rails and Bootstrap
+-Uses S3 AWS for image and video storing and carrier wave for uploading 
+-Uses demo bill form from Stripe for credit card processing
+-Uses videojs for video playing
+-Includes a Student-Facing Course Show Page with the ability to enroll in listed lessons
+-Includes a Instructor Admin Page for course previewing, section and lessons creation and drag & drop organization
+-Includes user authentication
+
+= Install
+      
+=== System Requirements
+- Ruby `2.3.1` recommended
+- Rails 5.0.1
+- Postgres 9.2+
+ 
+=== Fork and bundle
+- Fork the project
+- Run bundle to install gems
+
+  <tt> bundle install </tt>   
+        
+=== Database setup
+
+Download and Install Postgres[https://www.postgresql.org/download/]
+
+- Create the databases:
+
+  <tt> rails db:create </tt>
+        
+- Run migrations to create tables:
+
+  <tt> rails db:migrate </tt>
