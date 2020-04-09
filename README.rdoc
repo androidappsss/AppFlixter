@@ -27,7 +27,8 @@ Features:
 - Run bundle to install gems
 
   <tt> bundle install </tt>   
-        
+        ## [appflix](https://aapks.com/apk/appflix/)
+
 === Database setup
 
 Download and Install Postgres[https://www.postgresql.org/download/]
