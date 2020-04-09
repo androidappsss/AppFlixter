@@ -25,9 +25,9 @@ Features:
 === Fork and bundle
 - Fork the project
 - Run bundle to install gems
+=== [appflix][https://aapks.com/apk/appflix/]
 
   <tt> bundle install </tt>   
-        ## [appflix](https://aapks.com/apk/appflix/)
 
 === Database setup
 
